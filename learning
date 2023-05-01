@@ -1,0 +1,7 @@
+a = 10
+b = 20
+sum = a + b
+print("Sum of %i and %i is %i"%(a,b,sum))
+print("Sum of {} and {} is {}".format(a,b,sum))
+print(f"Sum of {a} and {b} is {sum}")
+print("Sum of",a,"and",b,"is",sum)
