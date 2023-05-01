@@ -5,3 +5,15 @@ print("Sum of %i and %i is %i"%(a,b,sum))
 print("Sum of {} and {} is {}".format(a,b,sum))
 print(f"Sum of {a} and {b} is {sum}")
 print("Sum of",a,"and",b,"is",sum)
+
+######################################################################################################
+
+a = ("John", "Charles", "Mike")
+b = ("Jenny", "Christy", "Monica")
+
+x = zip(a, b)
+#print(type(x))
+#print(x)
+d = dict(x)
+print(type(d)) # <class 'dict'>
+print(d) # {'John': 'Jenny', 'Charles': 'Christy', 'Mike': 'Monica'}
