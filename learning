@@ -17,3 +17,4 @@ x = zip(a, b)
 d = dict(x)
 print(type(d)) # <class 'dict'>
 print(d) # {'John': 'Jenny', 'Charles': 'Christy', 'Mike': 'Monica'}
+
